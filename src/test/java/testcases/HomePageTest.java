@@ -27,7 +27,7 @@ public class HomePageTest {
   @BeforeMethod
   public void beforeTest() {
 	  driver = new HtmlUnitDriver();
-	  driver.get("http://localhost:9090/MavenWebAppOne/");
+	  driver.get("http://localhost:9090/MavenWebAppTest/");
 //	  driver.get("https://www.google.com/");
 	  driver.manage().window().maximize();
 	 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
